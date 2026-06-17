@@ -1,0 +1,11 @@
+ETL Mapping Spec Automation
+
+Runtime input: one metadata workbook.
+Output: ETL_Mapping_Specification_Document.xlsx with two sheets only:
+1. ETL Mapping Specification
+2. Coverage Verification
+
+Coverage Verification consolidates metadata header pivot, generated mapping pivot, coverage summary, skipped-object explanations, and all mismatch explanations in one sheet.
+
+Run on Windows: double-click run_app.bat
+Manual: python -m pip install -r requirements.txt && python -m streamlit run app.py
